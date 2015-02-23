@@ -1,0 +1,2 @@
+# codeline to generate key with ssh
+ssh-keygen -b 4048 -t rsa -C "key_comment" -f ./key >>keygen.log

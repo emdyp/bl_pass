@@ -1,0 +1,36 @@
+/*GENERAL*/
+body{
+background-color: #2D2D2D;}
+#wrapper{
+border: 0px solid black;
+background-color: #fff;}
+#wrapper header{
+border: 0px solid black;
+background-color:rgba(128,0,0,1);
+color: rgba(250,250,250,1);}
+/*ARTICLE*/
+/*INFOIMAGES*/
+#infoImages{
+border: 0px solid rgba(250,0,250,1);}
+#photo{
+border: 0px solid rgba(0,0,0,1);}
+#qr{
+border: 0px solid rgba(0,250,0,1);}
+
+
+/*INFO*/
+#info{
+border: 0px solid rgba(250,210,0,1);}
+#infoList{
+border: 0px solid rgba(0,0,250,1);}
+#fingerprint{
+}
+#verification{
+}
+
+.dataHeader{
+}
+.dataInfo{}
+/*FOOTER*/
+footer{
+border: 3px solid rgba(128,0,0,0.7);}

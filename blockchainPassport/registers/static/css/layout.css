@@ -1,0 +1,72 @@
+/*GENERAL*/
+#wrapper{
+position: relative;
+width: 765px;
+height: 415px;
+margin: auto;
+background-image: url(../img/bkgnd.png);
+background-repeat: no-repeat;
+background-position: right 80%;}
+#wrapper header{
+margin-bottom: 10px;
+text-align: center;
+font-variant: small-caps;
+font-size: 1.2em;}
+/*ARTICLE*/
+/*INFOIMAGES*/
+#infoImages{
+width: 33%;
+display: inline-block;
+vertical-align: top;}
+#photo{
+width: 180px;
+height: 180px;
+margin: auto;
+border-radius: 50%;}
+#qr{
+width: 80%;
+height: 100px;
+margin: auto;
+text-align: center;
+word-wrap: break-word;}
+#social{
+width: 70%;
+height: 3em;
+margin: 5px auto;
+text-align: center;
+word-wrap: break-word;}
+
+/*INFO*/
+#info{
+width: 66%;
+display: inline-block;
+vertical-align: top;}
+ul#infoList{
+list-style: none;}
+li{
+word-wrap: break-word;}
+#infoList li{
+list-style: none;}
+#verification{
+font-size: 1.3em;
+font-variant: small-caps;
+font-weight: 600;}
+
+.dataHeader{
+font-size: 1.3em;
+font-variant: small-caps;
+font-weight: 600;}
+.dataInfo{}
+
+footer{
+  position: absolute;
+  bottom: 3px;
+  left: 18%;
+  padding-left: 3px;
+  padding-right: 3px;}
+#fingerprint{
+font-size: 1.45em;
+font-weight: 600;}
+#key_min{
+width: 1.4em;
+height: 1.4em;}
