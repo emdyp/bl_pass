@@ -18,17 +18,23 @@ crash with medium or high traffic
 #2 USAGE AND FEATURES
 
 bl_pass has the follow features, this start version is coded to work
-in linux-OSX computers only, uses calls to Mozilla firefox in order
-to show render ids, it is recommended have a tablet device for register
-attendees connected trough wireless private network to computer that
-runs software as server, the computer must have internet access in order
-to consume blockchain api in order to get data such as last block, index
-hash, merkle.
+in linux-OSX computers only, it is recommended have a tablet device for register
+attendees connected to a wireless private network to computer that
+runs software as server(recommended under low internet bandwidth), or you can deploy 
+the django project into services like openshift (check http://blockchainpassport-emdyp.rhcloud.com/, 
+a deployment of this project).
+
+The computer runing the backend locally or the tablet connected to 
+deployed platmorm must have internet access in order to consume 
+blockchain api to get data such as last block, index hash, merkle.
 
 the computer can, then, print to document and send by email, use a printer
 and get id cards, and if attendee requires, use notary services like 
 http://www.cryptograffiti.info, recommended work with electrum wallet to
 that.
+
+we're currently working on storj integration and improve id's render to
+export to pdf.
 
 bl_pass features are:
 
@@ -36,32 +42,33 @@ bl_pass features are:
 * register attendee data
 * automated register generation(json file, signatures, timestamp, blockchain information, hash generation to publish in blockchain)
 * html5 id render 
+* production environemts support(tested in with openshift, already tested with coinfest ghana staff)
 
 features to develop:
 
 * id verification system
 * improve id cryptographic management
-* digital signature management
 * multi key support
-* automated publication into notary services
-* production environments support
-* show id render without call firefox using subprocess
+* automated publication into notary services (currently working with bitproof https://bitproof.io/)
+* api and mobile app to deal with low bandwidth internet connections
+* automated publication of files (currently working with storj http://storj.io/)
 
 ###requirements
 
-* Django==1.7.4
-* Naked==0.1.30
-* PyYAML==3.11
+* Django==1.7.3
 * argparse==1.2.1
-* blockchain==1.1.2
-* bootstrap-admin==0.3.4
-* django-extensions==1.5.0
+* bootstrap-admin==0.3.3
+* django-extensions==1.4.9
 * django-grappelli==2.6.3
 * pycrypto==2.6.1
-* python-gnupg==0.3.7
-* requests==2.5.1
 * six==1.9.0
 * wsgiref==0.1.2
+* Pillow==2.7.0
+* xhtml2pdf==0.0.6
+* html5lib==0.999
+* reportlab==3.1.44
+* PyPDF2==1.24
+
 
 #3 ABOUT US
 
@@ -77,3 +84,4 @@ designing cool id templates, giving us your feedback.
 * vericoin: VVNkwZrUnDNwYyz89fNdMhCFh2h3tFfWiT
 
 we support bogota coinfest 2015, even in blockchain :) http://www.cryptograffiti.info/?txnr=2238
+thanks to Afrikanus and Philip of coinfest ghana and Andres Maya of parquesoft popayan for helping us to test and improve this software
