@@ -12,13 +12,6 @@ include
 lib
 local
 ## django files to ignore
-blockchainPassport/db.sqlite3
-blockchainPassport/blockchainPassport/migrations
-blockchainPassport/blockchainPassport/settings.py
-blockchainPassport/media
-blockchainPassport/staticFiles
-blockchainPassport/transactions
-blockchainPassport/gpg_keyring
 ## other to ignore
 notas
 pitou.jpg
