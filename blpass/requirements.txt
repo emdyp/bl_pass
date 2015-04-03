@@ -1,0 +1,13 @@
+Django==1.7.3
+argparse==1.2.1
+bootstrap-admin==0.3.3
+django-extensions==1.4.9
+django-grappelli==2.6.3
+pycrypto==2.6.1
+six==1.9.0
+wsgiref==0.1.2
+Pillow==2.7.0
+xhtml2pdf==0.0.6
+html5lib==0.999
+reportlab==3.1.44
+PyPDF2==1.24

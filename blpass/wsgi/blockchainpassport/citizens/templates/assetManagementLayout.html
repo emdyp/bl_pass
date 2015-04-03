@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Manejo de activos</title>
+        <style type="text/css">
+        body{
+            width:90%;
+            min-height:100%;
+            margin:auto;}
+        header{
+            text-align:center;}
+        section{
+            padding-left:20px;
+            padding-rigth:20px;
+            padding-top:5px;
+            padding-bottom:20px;
+            box-shadow:1px 1px 5px rgba(0,0,0,0.7)}
+        footer{
+            vertical-align:bottom;
+            margin-top: 10px;
+            padding-top:5px;
+            padding-bottom: 2px;
+            padding-left:5px;
+            padding-right:3px;
+            background-color:#334;
+            color:white;
+            box-shadow:1px 1px 5px rgba(0,0,0,0.7);}
+        @media (max-width:800px){
+            font-size=2em;}
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>Manejo de activo</h1>
+        </header>
+        <section>
+            <div id="MapaEstrategico">
+                {% block contenido %} {% endblock %}
+            </div>
+        </section>
+        <footer>(c) Todos los derechos reservados Emdyp 2013 - 2015</footer>
+    </body>
+</html>

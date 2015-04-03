@@ -1,0 +1,30 @@
+/* Bienvenido a la informacion de desarrolladores hecha en html5, css3 y php - http//emdyp.me (humanstxt.com) */
+
+/* TEAM */
+
+	Coder and Designer: Pedro León Rivera Wilches	
+	Ingeniero en Automatica Industrial
+	Contact: pedrorivera [at] emdyp.me
+	Twitter: @emdyp_pedro
+	From: Popayán, Colombia
+
+	Contents: Daniela Patricia Liberona
+	Interprete
+	Contact: danielapatricia [at] emdyp.me
+	Twitter: @emdyp
+	From: Antofagasta, Chile
+
+/* THANKS */
+	
+	to coinfest bogota for their inconditional support, to Chris Ellis and bitnation for the design
+        of the protocol we're currently using, to coinfest and specially to Andrew Wagner to help us to find
+        spaces for testing, to parquesoft popayan, specially to Andres Maya and John Ceron for helping us to
+        test the software during hackton cauca, and to coinfest ghana for trust in us and help us to test
+
+/* SITE */
+
+	Last update: 2015/03/04
+	Launguage: Español
+	Standars: HTML5, css3, wsgi
+	Components: python, django, bootstrap
+	Software: Gimp, Inkscape, Editor Bluefish, Ninja-IDE.

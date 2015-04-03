@@ -1,0 +1,15 @@
+{% extends "genLayout.html" %}
+
+{% block contenido %}
+<h1>Coinfest Ghana Attendees</h1>
+<ul>
+{% for register in object_list %}
+    <li>{{ register.reg_citizen.name }} {{ register.reg_citizen.lastname }}
+    - {{ register.reg_citizen.social }} :
+    <a href="/id/{{ register.pk }}">watch id</a> -
+    <a href="/pdf/{{ register.pk }}">pdf</a></li>
+{% empty %}
+    <li>No articles yet.</li>
+{% endfor %}
+</ul>
+{% endblock %}
